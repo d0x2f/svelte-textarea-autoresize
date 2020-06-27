@@ -9,6 +9,10 @@ Based on the wonderful [andarist/react-textarea-autosize](https://github.com/And
 $ npm install svelte-textarea-autoresize
 ```
 
+## Demo
+
+https://dyl.dog/svelte-textarea-autoresize/
+
 ## Use
 
 You can either use the component as is:

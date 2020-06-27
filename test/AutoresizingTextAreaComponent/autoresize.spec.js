@@ -7,7 +7,7 @@ describe('AutoresizingTextarea', () => {
     browser.waitForElementVisible('#textarea'))
 
   it('textarea has height of 30px', (browser) =>
-    browser.assert.cssProperty('#textarea', 'height', '30px'))
+    browser.assert.cssProperty('#textarea', 'height', '35px'))
 
   describe('with lots of content', () => {
     beforeEach((browser, done) => {
@@ -19,6 +19,6 @@ describe('AutoresizingTextarea', () => {
     })
 
     it('textarea has height of 45px', async (browser) =>
-      browser.assert.cssProperty('#textarea', 'height', '45px'))
+      browser.assert.cssProperty('#textarea', 'height', '65px'))
   })
 })
