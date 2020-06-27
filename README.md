@@ -1,7 +1,7 @@
 # Svelte Textarea Autoresize
 
 An autoresizing textarea component that adjusts it's height based on it's content.
-Based on the wonderful [andarist/react-textarea-autoresize](https://github.com/Andarist/react-textarea-autosize).
+Based on the wonderful [andarist/react-textarea-autosize](https://github.com/Andarist/react-textarea-autosize).
 
 ## Install
 
