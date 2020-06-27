@@ -1,8 +1,16 @@
 <script>
-    import Hello from './HelloComponent/index.svelte'
-    import ByeBye from './ByeByeComponent/index.svelte'
-    export let name
+  import AutoresizingTextArea, { autoresize } from './index'
 </script>
 
-<Hello {name} />
-<ByeBye {name} />
+<h4>Using the component</h4>
+<AutoresizingTextArea
+  id="textarea"
+  placeholder="Type something long into me.."
+/>
+<br />
+<h4>Using the exported `use`able function</h4>
+<textarea
+  id="textarea2"
+  use:autoresize
+  placeholder="Type something long into me.."
+/>
