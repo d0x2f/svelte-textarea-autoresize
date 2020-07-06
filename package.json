@@ -4,6 +4,10 @@
   "description": "An autoresizing textarea for svelte",
   "svelte": "src/index.js",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d0x2f/svelte-textarea-autoresize.git"
+  },
   "scripts": {
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
