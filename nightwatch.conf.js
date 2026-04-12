@@ -18,6 +18,7 @@ module.exports = {
 
   test_settings: {
     default: {
+      launch_url: 'http://localhost:8080',
       desiredCapabilities: {
         browserName: 'chrome',
         chromeOptions: {

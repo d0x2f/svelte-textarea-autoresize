@@ -1,6 +1,6 @@
 describe('AutoresizingTextarea', () => {
   beforeEach((browser, done) => {
-    browser.url('http://localhost:5000/#/', () => done())
+    browser.url(browser.launchUrl, () => done())
   })
 
   it('textarea is visible', async (browser) =>
