@@ -46,8 +46,10 @@
     "textarea",
     "autoresize"
   ],
+  "type": "module",
   "files": [
-    "src"
+    "src/index.js",
+    "src/AutoresizingTextAreaComponent"
   ],
   "peerDependencies": {
     "svelte": "^5.0.0"

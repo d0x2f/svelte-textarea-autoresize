@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   src_folders: ['test'],
   output_folder: 'result',
 
@@ -19,9 +19,9 @@ module.exports = {
   test_settings: {
     default: {
       launch_url: 'http://localhost:8080',
-      desiredCapabilities: {
+      capabilities: {
         browserName: 'chrome',
-        chromeOptions: {
+        'goog:chromeOptions': {
           args: ['--headless', '--no-sandbox', '--disable-gpu'],
         },
       },
