@@ -48,5 +48,11 @@
   ],
   "files": [
     "src"
-  ]
+  ],
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  }
 }

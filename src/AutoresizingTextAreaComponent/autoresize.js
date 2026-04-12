@@ -18,4 +18,11 @@ export default function autoresize(node) {
   node.addEventListener('input', resize)
   window.addEventListener('resize', resize)
   resize()
+
+  return {
+    destroy() {
+      node.removeEventListener('input', resize)
+      window.removeEventListener('resize', resize)
+    },
+  }
 }
