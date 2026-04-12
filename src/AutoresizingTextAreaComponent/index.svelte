@@ -5,4 +5,4 @@
   const props = clean($$props)
 </script>
 
-<textarea use:autoresize {...props} />
+<textarea use:autoresize {...props}></textarea>

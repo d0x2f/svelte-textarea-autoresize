@@ -1,19 +1,6 @@
 <script>
-  import AutoresizingTextArea, { autoresize } from './index'
+  import { autoresize } from './index'
 </script>
-
-<style>
-  #textarea {
-    width: 200px;
-    resize: none;
-    border-width: 2px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: #0066;
-    padding: 8px;
-    box-sizing: border-box;
-  }
-</style>
 
 <h1>Svelte Textarea Autoresize</h1>
 <p>An automatically resizing textarea dependign on it's content.</p>
@@ -27,4 +14,18 @@
   Type a long string into the box bellow and it'll change in height
   automatically as you type.
 </p>
-<textarea use:autoresize id="textarea" placeholder="Type something long.." />
+<textarea use:autoresize id="textarea" placeholder="Type something long.."
+></textarea>
+
+<style>
+  #textarea {
+    width: 200px;
+    resize: none;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #0066;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+</style>
