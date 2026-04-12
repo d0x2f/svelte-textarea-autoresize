@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   src_folders: ['test'],
   output_folder: 'result',
 
