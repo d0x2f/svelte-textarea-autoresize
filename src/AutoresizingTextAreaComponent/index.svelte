@@ -1,8 +1,7 @@
 <script>
   import autoresize from './autoresize'
-  import { clean } from './utils'
 
-  const props = clean($$props)
+  const { children, ...props } = $props()
 </script>
 
 <textarea use:autoresize {...props}></textarea>

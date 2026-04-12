@@ -3,6 +3,10 @@
 An autoresizing textarea component that adjusts it's height based on it's content.
 Based on the wonderful [andarist/react-textarea-autosize](https://github.com/Andarist/react-textarea-autosize).
 
+## Requirements
+
+Svelte 5 or later.
+
 ## Install
 
 ```sh
@@ -17,7 +21,7 @@ https://dyl.dog/svelte-textarea-autoresize/
 
 You can either use the component as is:
 
-```html
+```svelte
 <script>
   import AutoresizingTextArea from 'svelte-textarea-autoresize'
 </script>
@@ -27,7 +31,7 @@ You can either use the component as is:
 
 or by using the exported `autoresize` function on your existing component like so:
 
-```html
+```svelte
 <script>
   import { autoresize } from 'svelte-textarea-autoresize'
 </script>
