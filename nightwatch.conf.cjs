@@ -23,6 +23,7 @@ module.exports = {
         browserName: 'chrome',
         'goog:chromeOptions': {
           args: ['--headless', '--no-sandbox', '--disable-gpu'],
+          ...(process.env.CHROME_PATH && { binary: process.env.CHROME_PATH }),
         },
       },
     },

@@ -25,6 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: browser-actions/setup-chrome@v2
+        id: setup-chrome
         with:
           chrome-version: '147'
       - uses: actions/setup-node@v5
@@ -35,6 +36,8 @@ jobs:
       - run: npm run build
       - run: npm run webserver &
       - run: npm test
+        env:
+          CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
 
   publish:
     name: Publish
