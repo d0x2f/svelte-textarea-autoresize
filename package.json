@@ -2,7 +2,6 @@
   "name": "svelte-textarea-autoresize",
   "version": "2.0.0",
   "description": "An autoresizing textarea for svelte",
-  "svelte": "src/index.js",
   "private": false,
   "repository": {
     "type": "git",
